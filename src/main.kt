@@ -20,9 +20,9 @@ class Human (var name:String,var age:Int,var weight:Float) {
         println(speech)
     }
 
-    fun birthday ():Int {
+    fun birthday () {
         println( age+1)
-        return age
+
 
     }
 }
