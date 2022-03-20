@@ -4,7 +4,7 @@ fun main () {
     println( w.weight)
     w.speak("My name is Susan and I love Kotlin")
     w.birthday()
-   var me = User("Susan","Nakimuli","nakimulimarysusan@gmail.com",6764545)
+   var me = User("Susan","Nakimuli","nakimulimarysusan@gmail.com",+256-706112100,65756343)
     println(me.first_Name)
     println(me.email)
 }
@@ -26,6 +26,6 @@ class Human (var name:String,var age:Int,var weight:Float) {
 
     }
 }
-data class User(var first_Name:String,var lastName:String,var email:String,var password:Int) {
+data class User(var first_Name:String,var lastName:String,var email:String,  var phone_number: Int, var password:Int) {
 
 }
